@@ -11,10 +11,12 @@ LATEST = 2025
 # Year BCA published this edition of the report. Set it here (e.g. 2025); leave None to omit.
 REPORT_PUBLISHED = 2026
 DISCLAIMER = (
-    "Source: BCA Building Energy Benchmarking Report"
-    + (f" (published {REPORT_PUBLISHED})" if REPORT_PUBLISHED else "")
-    + f", public data covering {YEARS[0]}–{YEARS[-1]}. "
-    "This dashboard is for information only and is not official BCA advice."
+    "Independent project for knowledge and research purposes, and as a reference when checking EUIs for "
+    "Green Mark assessments. "
+    "Uses BCA's published Building Energy Benchmarking Report"
+    + (f" ({REPORT_PUBLISHED})" if REPORT_PUBLISHED else "")
+    + f" public data covering {YEARS[0]}–{YEARS[-1]}. "
+    "It does not represent BCA's views and is not official advice."
 )
 
 

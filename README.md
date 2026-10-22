@@ -10,7 +10,8 @@ energy use intensity (EUI, kWh/m²/yr) of Singapore buildings of 5,000 m² GFA a
 - **Sector Insights** — distributions, trends, drivers of EUI, map and a filterable data table with CSV download.
 
 Source: [BCA BEBR](https://www1.bca.gov.sg/sustainability/legislation-on-environmental-sustainability-for-buildings/existing-buildings/building-energy-benchmarking-report)
-(public data, published 2026). Not official BCA advice.
+(public data, published 2026). Independent project for knowledge and research purposes and as a reference
+when checking EUIs for Green Mark assessments. It does not represent BCA's views and is not official advice.
 
 ## Run locally
 
