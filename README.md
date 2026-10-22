@@ -1,5 +1,7 @@
 # BEBR Dashboard
 
+**Live app: https://bebr-dashboard.streamlit.app**
+
 Interactive dashboard for BCA's **Building Energy Benchmarking Report (BEBR)** — public data on the
 energy use intensity (EUI, kWh/m²/yr) of Singapore buildings of 5,000 m² GFA and above.
 
