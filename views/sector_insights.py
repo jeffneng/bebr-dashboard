@@ -197,7 +197,7 @@ with tab_driver:
         if rel:
             fig.update_yaxes(tickvals=[0.1, 0.2, 0.5, 1, 2, 5, 10], ticktext=["0.1", "0.2", "0.5", "1", "2", "5", "10"])
         st.plotly_chart(style(fig, 460), width="stretch")
-        r = d[xcol].corr(d["y"], method="spearman")
+        r = d[xcol].rank().corr(d["y"].rank())  # Spearman = Pearson on ranks (avoids needing scipy)
         strength = "no clear" if abs(r) < 0.1 else "a weak" if abs(r) < 0.3 else "a moderate" if abs(r) < 0.5 else "a strong"
         direction = "higher" if r > 0 else "lower"
         trend = (
