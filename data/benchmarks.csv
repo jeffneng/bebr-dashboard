@@ -1,0 +1,14 @@
+type,n_buildings,q1_max,q2_max,q3_max
+Office,213,105.0,135.0,165.0
+Hotel,96,188.0,236.0,291.0
+Retail,118,254.0,427.0,536.0
+Hospital or Specialist Clinic,27,226.0,284.0,339.0
+Nursing Home,45,82.0,98.0,111.0
+Polyclinic or Private Clinic,12,124.0,149.0,183.0
+Autonomous University,10,87.0,124.0,130.0
+Civic Institution,24,86.0,144.0,187.0
+Community Institution,38,56.0,76.0,112.0
+Cultural Institution,9,163.0,179.0,409.0
+Other Educational Institution,22,63.0,77.0,113.0
+Recreation Club,41,120.0,202.0,304.0
+Sports Centre,13,28.0,74.0,154.0
